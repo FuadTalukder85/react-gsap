@@ -19,6 +19,12 @@ main {
 .box {
   height: 300px;
   width: 300px;
-  background-color: crimson;
+  background: linear-gradient(to right bottom, rgb(228, 66, 103), crimson);
   border-radius: 10px;
+}
+.circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: linear-gradient(to right bottom, lightblue, cadetblue);
 }
