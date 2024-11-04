@@ -18,22 +18,24 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: column;
 }
-.container {
-  padding: 20px;
-  border: 3px solid #fff;
-  border-radius: 20px;
-}
-.box {
-  height: 300px;
-  width: 300px;
-  margin: 20px;
-  background: linear-gradient(to right bottom, rgb(228, 66, 103), crimson);
-  border-radius: 10px;
-}
+
 .circle {
   height: 300px;
   width: 300px;
   border-radius: 50%;
   background: linear-gradient(to right bottom, lightblue, cadetblue);
+}
+button {
+  padding: 20px 100px;
+  border-radius: 50px;
+  background: linear-gradient(lightblue, rgb(100, 228, 155));
+  border: none;
+  color: #111111;
+  font-size: 25px;
+  font-weight: 600;
+}
+button:active {
+  scale: 0.96;
 }

@@ -18,14 +18,8 @@ const App = () => {
   );
   return (
     <main>
-      <div ref={container} className="container">
-        <div className="circle"></div>
-        <div className="box"></div>
-      </div>
-      <div className="kush">
-        <div className="circle"></div>
-        <div className="box"></div>
-      </div>
+      <button>Animate</button>
+      <div className="circle"></div>
     </main>
   );
 };
